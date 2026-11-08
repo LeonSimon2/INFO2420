@@ -40,18 +40,18 @@
 		logo1 = new Image
 		logo2 = new Image
 		if (document.images) {
-			PrintButton1.src = "Images/print1.png"
-			PrintButton2.src = "Images/print2.png"
-			logo1.src = "images/BirdLogo.jpg"
-			logo2.src = "images/BirdLogoAlt.jpg"
+			PrintButton1.src = "images/Print1.png"
+			PrintButton2.src = "images/Print2.png"
+			logo1.src = "images/BirdLogo.png"
+			logo2.src = "images/BirdLogoAlt.png"
 		}
 
 
 		var imgArray = new Array(
-			'Image1lg.jpg',
-			'Image2lg.jpg',
-			'Image3lg.jpg',
-			'Image4lg.jpg'
+			'image1lg.jpg',
+			'image2lg.jpg',
+			'image3lg.jpg',
+			'image4lg.jpg'
 
 
 		);
@@ -65,7 +65,7 @@
 
 		);
 
-		var imgPath = "Images/Fullsize/";
+		var imgPath = "images/fullsize/";
 
 		function swapImage(imgID) {
 
@@ -101,19 +101,19 @@
 	<div style="text-align: center;">
 
 		<a href="" onmouseover="document.getElementById('print').src='Images/Print2.png';"
-			onmouseout="document.getElementById('print').src='Images/Print1.png';">
+			onmouseout="document.getElementById('print').src='images/Print1.png';">
 
-			<img src="Images/print1.png" alt="Print Page" width="200" height="50" id="print"></a>
+			<img src="images/print1.png" alt="Print Page" width="200" height="50" id="print"></a>
 
 	</div>
 
 
 	<div style="text-align: center;">
 
-		<a href="" onmouseover="document.getElementById('logo').src='Images/BirdLogoAlt.png';"
-			onmouseout="document.getElementById('logo').src='Images/BirdLogo.png';">
+		<a href="" onmouseover="document.getElementById('logo').src='images/BirdLogoAlt.png';"
+			onmouseout="document.getElementById('logo').src='images/BirdLogo.png';">
 
-			<img src="Images/BirdLogo.png" alt="Logo" id="logo"></a>
+			<img src="images/BirdLogo.png" alt="Logo" id="logo"></a>
 
 	</div>
 
@@ -124,16 +124,16 @@
 
 
 	<div id="thumbs">
-		<img src="Images/Thumbnails/image1sm.jpg" alt="American Goldfinch" onmouseover="swapImage(0);" />
-		<img src="Images/Thumbnails/image2sm.jpg" alt="Mountain Bluebird" onmouseover="swapImage(1);" />
-		<img src="Images/Thumbnails/image3sm.jpg" alt="Hummingbird" onmouseover="swapImage(2);" />
-		<img src="Images/Thumbnails/image4sm.jpg" alt="Cardinal" onmouseover="swapImage(3);" />
+		<img src="images/thumbnails/image1sm.jpg" alt="American Goldfinch" onmouseover="swapImage(0);" />
+		<img src="images/thumbnails/image2sm.jpg" alt="Mountain Bluebird" onmouseover="swapImage(1);" />
+		<img src="images/thumbnails/image3sm.jpg" alt="Hummingbird" onmouseover="swapImage(2);" />
+		<img src="images/thumbnails/image4sm.jpg" alt="Cardinal" onmouseover="swapImage(3);" />
 
 	</div>
 
 	<div id="image">
 
-		<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="American Goldfinch" />
+		<img id="theImage" src="Images/fullSize/image1lg.jpg" alt="American Goldfinch" />
 		<h3 id="bottomText">American Goldfinch</h3>
 	</div>
 
