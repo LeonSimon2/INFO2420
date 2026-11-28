@@ -2,11 +2,11 @@
 		PrintButton2 = new Image
 		logo1 = new Image
 		logo2 = new Image
-		if (document.images) {
-			PrintButton1.src = "images/Print1.png"
-			PrintButton2.src = "images/Print2.png"
-			logo1.src = "images/BirdLogo.png"
-			logo2.src = "images/BirdLogoAlt.png"
+		if (document.Images) {
+			PrintButton1.src = "Images/Print1.png"
+			PrintButton2.src = "Images/Print2.png"
+			logo1.src = "Images/BirdLogo.png"
+			logo2.src = "Images/BirdLogoAlt.png"
 		}
 
 
@@ -28,7 +28,7 @@
 
 		);
 
-		var imgPath = "images/fullsize/";
+		var imgPath = "Images/fullsize/";
 
 		function swapImage(imgID) {
 
